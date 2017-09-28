@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/MonicaDan/monicadan.github.com.git/"/>
-  <updated>2017-09-11T15:41:35.918Z</updated>
+  <updated>2017-09-06T13:57:09.039Z</updated>
   <id>https://github.com/MonicaDan/monicadan.github.com.git/</id>
   
   <author>
@@ -15,111 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>about</title>
-    <link href="https://github.com/MonicaDan/monicadan.github.com.git/2017/09/11/about/"/>
-    <id>https://github.com/MonicaDan/monicadan.github.com.git/2017/09/11/about/</id>
-    <published>2017-09-11T15:37:13.000Z</published>
-    <updated>2017-09-11T15:41:35.918Z</updated>
-    
-    <content type="html"><![CDATA[<p>##关于我<br>自学前端中…欢迎来到我的博客！</p><p>From HPU</p><p>联系方式：<br>QQ：1223999657<br>Email：1223999657@qq.com</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;##关于我&lt;br&gt;自学前端中…欢迎来到我的博客！&lt;/p&gt;
-&lt;p&gt;From HPU&lt;/p&gt;
-&lt;p&gt;联系方式：&lt;br&gt;QQ：1223999657&lt;br&gt;Email：1223999657@qq.com&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>hehe</title>
-    <link href="https://github.com/MonicaDan/monicadan.github.com.git/2017/09/06/hehe/"/>
-    <id>https://github.com/MonicaDan/monicadan.github.com.git/2017/09/06/hehe/</id>
-    <published>2017-09-06T13:49:05.000Z</published>
-    <updated>2017-09-06T13:49:45.929Z</updated>
-    
-    <content type="html"><![CDATA[<p>okokokokokookkokokokokokokokokokoko</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;okokokokokookkokokokokokokokokokoko&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>hi</title>
-    <link href="https://github.com/MonicaDan/monicadan.github.com.git/2017/09/06/hi/"/>
-    <id>https://github.com/MonicaDan/monicadan.github.com.git/2017/09/06/hi/</id>
-    <published>2017-09-06T13:12:17.000Z</published>
-    <updated>2017-09-11T15:36:08.152Z</updated>
-    
-    <content type="html"><![CDATA[<p>OK~ Today’s a good day for the new guys .</p><p>Im listening a song called WILD LOVE by Elle King who is an American singer.</p><p>I’m looking forward to having  a job in a big city in China. =.=</p><p>Just that one wish~  ok</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;OK~ Today’s a good day for the new guys .&lt;/p&gt;
-&lt;p&gt;Im listening a song called WILD LOVE by Elle King who is an American singer.&lt;/p&gt;
-&lt;p&gt;I’m 
-      
-    
-    </summary>
-    
-      <category term="life" scheme="https://github.com/MonicaDan/monicadan.github.com.git/categories/life/"/>
-    
-    
-      <category term="mood" scheme="https://github.com/MonicaDan/monicadan.github.com.git/tags/mood/"/>
-    
-      <category term="life" scheme="https://github.com/MonicaDan/monicadan.github.com.git/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>����Hexo��GitHub�����</title>
-    <link href="https://github.com/MonicaDan/monicadan.github.com.git/2017/09/05/my-new-post/"/>
-    <id>https://github.com/MonicaDan/monicadan.github.com.git/2017/09/05/my-new-post/</id>
-    <published>2017-09-05T15:43:22.000Z</published>
-    <updated>2017-09-11T15:36:25.073Z</updated>
-    
-    <content type="html"><![CDATA[<p>�����Ҵ���Լ��Ĳ���</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;�����Ҵ���Լ��Ĳ���&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="study" scheme="https://github.com/MonicaDan/monicadan.github.com.git/categories/study/"/>
-    
-    
-      <category term="npm" scheme="https://github.com/MonicaDan/monicadan.github.com.git/tags/npm/"/>
-    
-      <category term="hexo" scheme="https://github.com/MonicaDan/monicadan.github.com.git/tags/hexo/"/>
-    
-      <category term="github" scheme="https://github.com/MonicaDan/monicadan.github.com.git/tags/github/"/>
-    
-  </entry>
   
   <entry>
     <title>辨析 Sass 中的 Map 和 List</title>
