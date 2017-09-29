@@ -105,7 +105,7 @@
 <meta property="og:site_name" content="Monica">
 <meta property="og:description" content="如果你使用过 Sass 3.3 之前的版本，那么你一定对那段时光颇有感触，那时候没有现如今这么好的条件，那时候的 Map 还只能用多重列表（lists of list）来模拟。多重列表可以实现复杂数据的嵌套定义，但却不是以键值对的形式实现的，所有当我们需要获取其中特定的某一项时就会比较麻烦。Map 这种数据类型天生就是基于键值对的形式，非常便于组织数据。 自从可以使用 Map 之后，开发者们开始毫">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-06T13:57:09.039Z">
+<meta property="og:updated_time" content="2017-09-29T10:31:45.861Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="辨析 Sass 中的 Map 和 List">
 <meta name="twitter:description" content="如果你使用过 Sass 3.3 之前的版本，那么你一定对那段时光颇有感触，那时候没有现如今这么好的条件，那时候的 Map 还只能用多重列表（lists of list）来模拟。多重列表可以实现复杂数据的嵌套定义，但却不是以键值对的形式实现的，所有当我们需要获取其中特定的某一项时就会比较麻烦。Map 这种数据类型天生就是基于键值对的形式，非常便于组织数据。 自从可以使用 Map 之后，开发者们开始毫">
@@ -417,6 +417,26 @@
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><div class="note unreleased"><br>    <h5>Test Title</h5><br>    <p>相比起列表来说，Key-Value 模型的 Map 显然更有力量，原生的 Sass Map 函数更是提供了强力的数据查找和验证工具。</p><br></div>
 
 <p>虽然多重列表代码量少，但并不能像 Map 一样进行错误检查或验证参数。在大多数时候，相比较多重列表而言，我相信 Map 是更好的选择。如果是为了更少的代码量和其他简单地调用，那么我偶尔会用用多重列表，但是从项目的宏观控制和数据存储方面显然更优秀。</p>
+<p><div id="container"></div></p>
+<p><link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"></p>
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '    ', // 可选。默认为 location.href
+  owner: '你的 GitHub ID',
+  repo: '存储评论的 repo',
+  oauth: {
+    client_id: '你的 client ID',
+    client_secret: '你的 client secret',
+  },
+})
+gitment.render('container')
+</script>
+
+
+
+
+
 
       
     </div>
@@ -444,6 +464,22 @@
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/29/vue学习心得/" rel="prev" title="vue学习心得">
+                vue学习心得 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
 
       
       
@@ -470,7 +506,11 @@
   <div class="comments" id="comments">
     
   </div>
+  
 
+
+
+ 
 
         </div>
         
@@ -519,12 +559,21 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
 
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
           
 
           
@@ -532,7 +581,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -761,7 +810,29 @@
 
 
 
+ 
+   
+    
+   
+    
+   <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"> <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> 
+   
+   <script type="text/javascript"> 
+   var gitment = new Gitment({ 
+   id: document.location.href, 
+   owner: 'MonicaDan', 
+   repo: 'monicadan.github.io', 
+   oauth: { 
+   client_id: 'a0d32b00ee7858942330', 
+   client_secret: 'b8a92518f5eab522861b1224709bb0a11902cf89', 
+      }
+     }); 
+	 gitment.render('gitment-container'); 
+	 </script> 
+	  
+	 
 
+ 
   
 
 
