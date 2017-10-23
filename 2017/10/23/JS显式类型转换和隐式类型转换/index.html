@@ -79,7 +79,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="hexo," />
+  <meta name="keywords" content="js," />
 
 
 
@@ -97,18 +97,18 @@
 
 
 
-<meta name="description" content="大家好！我是MonicaDan！ 前几天使用了hexo和GitHub创建属于自己的博客，这就算是一个总结吧~ 开始咯~~">
-<meta name="keywords" content="hexo">
+<meta name="description" content="这是一篇关于最基础的js类型转换的文章，正所谓基础中的基础就得必须吃透它！">
+<meta name="keywords" content="js">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo+GitHub创建属于自己的博客">
-<meta property="og:url" content="https://github.com/MonicaDan/monicadan.github.com.git/2017/10/20/hexo-GitHub创建属于自己的博客/index.html">
+<meta property="og:title" content="JS显式类型转换和隐式类型转换">
+<meta property="og:url" content="https://github.com/MonicaDan/monicadan.github.com.git/2017/10/23/JS显式类型转换和隐式类型转换/index.html">
 <meta property="og:site_name" content="Monica">
-<meta property="og:description" content="大家好！我是MonicaDan！ 前几天使用了hexo和GitHub创建属于自己的博客，这就算是一个总结吧~ 开始咯~~">
+<meta property="og:description" content="这是一篇关于最基础的js类型转换的文章，正所谓基础中的基础就得必须吃透它！">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-23T04:21:15.851Z">
+<meta property="og:updated_time" content="2017-10-23T04:19:37.124Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo+GitHub创建属于自己的博客">
-<meta name="twitter:description" content="大家好！我是MonicaDan！ 前几天使用了hexo和GitHub创建属于自己的博客，这就算是一个总结吧~ 开始咯~~">
+<meta name="twitter:title" content="JS显式类型转换和隐式类型转换">
+<meta name="twitter:description" content="这是一篇关于最基础的js类型转换的文章，正所谓基础中的基础就得必须吃透它！">
 
 
 
@@ -138,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="https://github.com/MonicaDan/monicadan.github.com.git/2017/10/20/hexo-GitHub创建属于自己的博客/"/>
+  <link rel="canonical" href="https://github.com/MonicaDan/monicadan.github.com.git/2017/10/23/JS显式类型转换和隐式类型转换/"/>
 
 
 
 
 
-  <title>hexo+GitHub创建属于自己的博客 | Monica</title>
+  <title>JS显式类型转换和隐式类型转换 | Monica</title>
   
 
 
@@ -271,7 +271,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/MonicaDan/monicadan.github.com.git/2017/10/20/hexo-GitHub创建属于自己的博客/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/MonicaDan/monicadan.github.com.git/2017/10/23/JS显式类型转换和隐式类型转换/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="MonicaDan">
@@ -288,7 +288,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hexo+GitHub创建属于自己的博客</h1>
+          <h1 class="post-title" itemprop="name headline">JS显式类型转换和隐式类型转换</h1>
         
 
         <div class="post-meta">
@@ -300,8 +300,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-20T22:17:39+08:00">
-                2017-10-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-23T12:16:56+08:00">
+                2017-10-23
               </time>
             
 
@@ -360,84 +360,34 @@
       
 
       
-        <p>  大家好！我是MonicaDan！ 前几天使用了hexo和GitHub创建属于自己的博客，这就算是一个总结吧~ 开始咯~~</p>
-<a id="more"></a>
-<h2 id="一、关于hexo"><a href="#一、关于hexo" class="headerlink" title="一、关于hexo"></a>一、关于hexo</h2><p><code>Hexo</code>是一个开源的静态博客生成器,用<code>nodejs</code>开发,作者是台湾大学生<code>tommy351</code>。</p>
-<h2 id="二、-话不多说，马上开始我们的准备工作！"><a href="#二、-话不多说，马上开始我们的准备工作！" class="headerlink" title="二、 话不多说，马上开始我们的准备工作！"></a>二、 话不多说，马上开始我们的准备工作！</h2><ul>
-<li><p>GitHub</p>
+        <p>这是一篇关于最基础的js类型转换的文章，正所谓基础中的基础就得必须吃透它！<br><a id="more"></a></p>
+<h3 id="显式类型转换"><a href="#显式类型转换" class="headerlink" title="显式类型转换"></a>显式类型转换</h3><p><strong>以下方法均有一个共同点：如果元素的开头有若干个空格或加号或减号，不影响对元素的判断。</strong></p>
 <ul>
-<li>首先得有个账号：<a href="https://github.com/" title="GitHub主页">注册GitHub</a>  </li>
-<li><a href="https://desktop.github.com/" title="GitHub客户端" target="_blank" rel="external"> 下载GitHub客户端</a>GitHub客户端（方便对项目的管理）， 安装完成后，会在桌面上出现两个图标，<code>git Shell</code>（所以就直接可以用）和<code>GitHub</code></li>
+<li><strong>Number( )</strong><br>将目标元素类型转为数字类型；从左往右判断每个元素，除了开头的若干个空格或加号或减号，若在此以后出现了非数字元素就返回NaN。<br>布尔值中的false为0；true为1；<br>元素大于1的数组、函数返回NaN；<br>数组中只包含一个元素其内容为数字或内容为数字的字符串，返回该数字；<br>空数组、空字符串、null、undefined等返回0；</li>
 </ul>
-</li>
-<li><p>NodeJS</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">alert(Number(&apos; 45&apos;)); //弹出45 </div><div class="line">alert(Number(&apos; +45&apos;)); //弹出NaN   </div><div class="line">alert(Number(&apos;+hh45&apos;));  //弹出NaN </div><div class="line">alert(Number(true)); //弹出1</div><div class="line">alert(Number(false)); //弹出0</div><div class="line">alert(Number([45,78,78])); //弹出NaN </div><div class="line">alert(Number([&apos;45&apos;])); //弹出45</div><div class="line">alert(Number([])); //弹出0</div><div class="line">alert(Number(&apos;&apos;)); //弹出0</div></pre></td></tr></table></figure>
 <ul>
-<li>既然是使用nodejs开发的，就少不了nodejs，so..<a href="https://nodejs.org/en/" title="nodejs官网" target="_blank" rel="external">下载nodejs</a>，选择对应自己电脑的版本下载安装。为方便管理，我选择下载在D盘下创建文件夹名为<code>nodejs</code>或<code>node</code> 的文件夹中。</li>
-<li>打开cmd输入 <code>node -v</code>，出现版本号说明安装成功</li>
-</ul>
-<ul>
-<li><p>hexo安装</p>
-<ul>
-<li><p>首先创建文件夹名为blog ，我们要将hexo下载在此目录</p>
-</li>
-<li><p>打开git shell 或 git，输入：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">D:\&gt;cd blog</div><div class="line">D:\blog&gt;npm install hexo-cli -g</div></pre></td></tr></table></figure>
+<li><strong>parseInt( )</strong><br>将目标元素类型转为整型数字类型；从左往右判断每个元素，除了开头的若干个空格或加号或减号，直到出现非数字元素就停止，返回以上值。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">alert(parseInt(b)); // 150</div><div class="line">alert(parseFloat(b));//   150</div><div class="line">var fc = function () &#123; &#125;;</div><div class="line">alert(parseInt(fc));  //NaN</div><div class="line">var c = &apos;18.22 元&apos;;</div><div class="line">alert(Number(c)); //NaN</div><div class="line">alert(parseInt(c, 10));  //转成了18 第二个参数为转化成的进制</div><div class="line">alert(parseFloat(c));   //转成了18.55</div></pre></td></tr></table></figure>
 </li>
 </ul>
+<h3 id="隐式类型转换"><a href="#隐式类型转换" class="headerlink" title="隐式类型转换"></a>隐式类型转换</h3><ul>
+<li><strong>+</strong>    返回字符串</li>
+<li><strong>-  *  /  % </strong>  返回数字</li>
+<li><strong>++ &nbsp; - -</strong> 返回数字</li>
+<li><blockquote>
+<p>、&lt;、&lt;=、&gt;= 返回布尔值</p>
+</blockquote>
 </li>
+<li><strong>! 取反</strong> 返回布尔值</li>
+<li><strong>==</strong>   返回布尔值</li>
 </ul>
-</li>
-</ul>
-<pre><code>稍等一会儿就会显示 `added XXX packages in XX.XXXs` 成功
- - 检查是否安装成功
-在cmd或git shell中输入`hexo -v` 出现版本信息即为成功
-</code></pre><hr>
-<h2 id="三、创建项目"><a href="#三、创建项目" class="headerlink" title="三、创建项目"></a>三、创建项目</h2><ul>
-<li>hexo初始化<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">D:\blog&gt;hexo init</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>   初始化成功：<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">INFO  Copying data to D:\blog</div><div class="line">INFO  You are almost done! Don&apos;t forget to run &apos;npm install&apos; before you  start blogging with Hexo!</div></pre></td></tr></table></figure></p>
-<ul>
-<li><p>依赖包的安装</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">D:\blog&gt;npm install</div></pre></td></tr></table></figure>
-<p> 此时查看你的blog目录结构如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">blog</div><div class="line">├── _config.yml</div><div class="line">├── node_modules</div><div class="line">├── package.json</div><div class="line">├── scaffolds</div><div class="line">├── source</div><div class="line">|    └── _posts</div><div class="line">└── themes</div></pre></td></tr></table></figure>
-<p> 好玩的部分马上就到了，继续咯~ </p>
-<hr>
-</li>
-<li><p>创建文章 （很鸡冻の部分有木有！！）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">D:\blog&gt;hexo new &quot;hello world&quot;</div></pre></td></tr></table></figure>
-<p>   可简写为：</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">D:\blog&gt;hexo n &quot;hello world&quot;</div></pre></td></tr></table></figure>
-<p> 创建成功：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"> INFO Created: D:\blog\source\_posts\hello-world.md</div><div class="line"> ``` </div><div class="line"> --------</div><div class="line">- 页面生成&amp;运行</div><div class="line"></div><div class="line">      - 修改内容，打开`hello-world.md：`</div></pre></td></tr></table></figure>
-<p>   —title: hello world date:xxxx-xx-xx xx:xx:xx tags:—</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">在文章最后的- - -后面写下一些简单的句子，ctrl+s保存一下下</div><div class="line"></div><div class="line">      - 生成页面</div></pre></td></tr></table></figure>
-<p> D:\blog&gt;hexo generate</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">可简写为：</div></pre></td></tr></table></figure>
-<pre><code>D:\blog&gt;hexo g 
-</code></pre>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">- 跑跑跑，让它跑起来</div></pre></td></tr></table></figure>
-<pre><code>D:\blog&gt;hexo  server
-</code></pre>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">当然此处也有简写：</div></pre></td></tr></table></figure>
-<pre><code>D:\blog&gt;hexo  s 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">结果：</div></pre></td></tr></table></figure>
-
-INFO Start processing 
-INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
-</code></pre><p>  ```</p>
-<p> <strong>* 以上端口号仅供参考，具体端口号请结合自己的实际情况</strong></p>
-<p> 在浏览器中打开以上网址就可以看到我们刚刚建好的<strong>hello-world</strong> 文章了， 放眼望去，博客名怎么叫hexo，什么嘛，作者信息也不是我，迫不及待要改改改有木有！ 继续！</p>
-</li>
-</ul>
-<hr>
-<h2 id="四、配置信息"><a href="#四、配置信息" class="headerlink" title="四、配置信息"></a>四、配置信息</h2><p>   用你的编辑器打开blog文件夹<strong>根目录</strong>下的配置文件 <code>_config.yml</code> ， 找到 <code>#site</code> 这个部分，在<code>title :</code> 的后面改成你喜欢的博客名。<code>author</code> 也是你啦，<code>email</code> 、<code>description</code> 都可以随意添上点内容。<br>   语言选项 <code>language：zh-Hans</code> (<strong>简体中文</strong>)</p>
-<p>   <strong>注意：XXXXX: 与其值之间必须有一个空格</strong></p>
-<p>   更多详细信息请参考：<a href="https://hexo.io/docs/configuration.html" title="hexo官方文档" target="_blank" rel="external">hexo官方文档</a></p>
-<p>参考文章：</p>
-<p>❤ <a href="http://www.jianshu.com/p/b06222fbc135" title="参考文章1" target="_blank" rel="external">用Hexo创建个人博客</a><br>❤ <a href="http://blog.csdn.net/gdutxiaoxu/article/details/53576018" title="参考文章2" target="_blank" rel="external">手把手教你用Hexo+Github 搭建属于自己的博客</a></p>
-<hr>
-<p>ps：这是<a href="https://github.com/MonicaDan" title="MonicaDan的GitHub">我的GitHub</a>， 请多关照， よろしく ~~ ❤❤</p>
-<p>我要去休息啦，所以今天要到此为止咯，更多细节就在以后的博客中更新~~</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">console.log(&apos;200&apos;+3); //2003</div><div class="line">console.log(&apos;200&apos;*3); //600</div><div class="line">console.log(&apos;100&apos;&gt;9); //true</div><div class="line">console.log(&apos;100&apos;&gt;&apos;9&apos;); //false 字符串按位比较1&lt;9</div><div class="line">console.log(&apos;10&apos;==10);//true 把两个转成同类型</div></pre></td></tr></table></figure>
+<p>对于判断两个参数的类型是否相等应当使用<strong>===</strong>来判断；此时：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">console.log(&apos;45&apos;===45); //false</div></pre></td></tr></table></figure></p>
+<p><strong>NaN比较特殊：</strong><br>NaN :  表示 not a number的<strong>数字类型</strong>。即NaN是数字类型 ; </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">console.log(typeof(NaN));  //number</div><div class="line">``` </div><div class="line">所有的东西都可以和自己比较===全部为真；但除了NaN。</div></pre></td></tr></table></figure>
+<p>conole.log(NaN===NaN);  //false<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">**js判断数据类型：**</div></pre></td></tr></table></figure></p>
+<p>if(typeof a=’number’&amp;&amp;a===a){<br>// a===a 排除NaN的问题<br>alert(a+’是数字’);<br>}else if(typeof a===’String’){<br>alert(a+’是字符串’);<br>};<br>``` </p>
+<p><strong>isNaN( );</strong> 非数字判断；<br><code>isNaN(&#39;123&#39;);</code>  结果为true；<br>这个过程其实先进行了<code>Number(&#39;123&#39;); //123</code>的运算；将字符串转为数字或者NaN之后，再判断是不是数字。<code>isNaN([ ]); //false</code> 空数组转为数字类型为0，非数字返回NaN。</p>
 
       
     </div>
@@ -455,7 +405,7 @@ INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
       
         <div class="post-tags">
           
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
+            <a href="/tags/js/" rel="tag"># js</a>
           
         </div>
       
@@ -468,8 +418,8 @@ INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/10/21/demo/" rel="next" title="辨析 Sass 中的 Map 和 List">
-                <i class="fa fa-chevron-left"></i> 辨析 Sass 中的 Map 和 List
+              <a href="/2017/10/20/JSON小结/" rel="next" title="JSON小结">
+                <i class="fa fa-chevron-left"></i> JSON小结
               </a>
             
           </div>
@@ -477,10 +427,6 @@ INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/10/20/JSON小结/" rel="prev" title="JSON小结">
-                JSON小结 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -642,7 +588,7 @@ INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、关于hexo"><span class="nav-number">1.</span> <span class="nav-text">一、关于hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、-话不多说，马上开始我们的准备工作！"><span class="nav-number">2.</span> <span class="nav-text">二、 话不多说，马上开始我们的准备工作！</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、创建项目"><span class="nav-number">3.</span> <span class="nav-text">三、创建项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、配置信息"><span class="nav-number">4.</span> <span class="nav-text">四、配置信息</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#显式类型转换"><span class="nav-number">1.</span> <span class="nav-text">显式类型转换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#隐式类型转换"><span class="nav-number">2.</span> <span class="nav-text">隐式类型转换</span></a></li></ol></div>
             
 
           </div>
