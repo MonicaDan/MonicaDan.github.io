@@ -79,7 +79,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="hexo," />
+  <meta name="keywords" content="js," />
 
 
 
@@ -97,18 +97,18 @@
 
 
 
-<meta name="description" content="大家好！我是MonicaDan！ 前几天使用了hexo和GitHub创建属于自己的博客，这就算是一个总结吧~ 开始咯~~">
-<meta name="keywords" content="hexo">
+<meta name="description" content="今天下雪了，没什么事干，就把最近遇到的各种坑总结一下，提醒自己再次使用时多多注意。  ###getElementsByTagName( )的一些坑">
+<meta name="keywords" content="js">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo+GitHub创建属于自己的博客">
-<meta property="og:url" content="https://github.com/MonicaDan/monicadan.github.com.git/2017/10/20/hexo-GitHub创建属于自己的博客/index.html">
+<meta property="og:title" content="关于最近遇到的坑">
+<meta property="og:url" content="https://github.com/MonicaDan/monicadan.github.com.git/2017/12/14/关于最近遇到的坑/index.html">
 <meta property="og:site_name" content="Monica">
-<meta property="og:description" content="大家好！我是MonicaDan！ 前几天使用了hexo和GitHub创建属于自己的博客，这就算是一个总结吧~ 开始咯~~">
+<meta property="og:description" content="今天下雪了，没什么事干，就把最近遇到的各种坑总结一下，提醒自己再次使用时多多注意。  ###getElementsByTagName( )的一些坑">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-23T04:21:15.851Z">
+<meta property="og:updated_time" content="2017-12-14T11:35:15.795Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo+GitHub创建属于自己的博客">
-<meta name="twitter:description" content="大家好！我是MonicaDan！ 前几天使用了hexo和GitHub创建属于自己的博客，这就算是一个总结吧~ 开始咯~~">
+<meta name="twitter:title" content="关于最近遇到的坑">
+<meta name="twitter:description" content="今天下雪了，没什么事干，就把最近遇到的各种坑总结一下，提醒自己再次使用时多多注意。  ###getElementsByTagName( )的一些坑">
 
 
 
@@ -138,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="https://github.com/MonicaDan/monicadan.github.com.git/2017/10/20/hexo-GitHub创建属于自己的博客/"/>
+  <link rel="canonical" href="https://github.com/MonicaDan/monicadan.github.com.git/2017/12/14/关于最近遇到的坑/"/>
 
 
 
 
 
-  <title>hexo+GitHub创建属于自己的博客 | Monica</title>
+  <title>关于最近遇到的坑 | Monica</title>
   
 
 
@@ -271,7 +271,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/MonicaDan/monicadan.github.com.git/2017/10/20/hexo-GitHub创建属于自己的博客/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/MonicaDan/monicadan.github.com.git/2017/12/14/关于最近遇到的坑/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="MonicaDan">
@@ -288,7 +288,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hexo+GitHub创建属于自己的博客</h1>
+          <h1 class="post-title" itemprop="name headline">关于最近遇到的坑</h1>
         
 
         <div class="post-meta">
@@ -300,8 +300,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-20T22:17:39+08:00">
-                2017-10-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-14T19:18:10+08:00">
+                2017-12-14
               </time>
             
 
@@ -360,84 +360,26 @@
       
 
       
-        <p>  大家好！我是MonicaDan！ 前几天使用了hexo和GitHub创建属于自己的博客，这就算是一个总结吧~ 开始咯~~</p>
+        <p>今天下雪了，没什么事干，就把最近遇到的各种坑总结一下，提醒自己再次使用时多多注意。</p>
+<ul>
+<li><p>###getElementsByTagName( )的一些坑</p>
 <a id="more"></a>
-<h2 id="一、关于hexo"><a href="#一、关于hexo" class="headerlink" title="一、关于hexo"></a>一、关于hexo</h2><p><code>Hexo</code>是一个开源的静态博客生成器,用<code>nodejs</code>开发,作者是台湾大学生<code>tommy351</code>。</p>
-<h2 id="二、-话不多说，马上开始我们的准备工作！"><a href="#二、-话不多说，马上开始我们的准备工作！" class="headerlink" title="二、 话不多说，马上开始我们的准备工作！"></a>二、 话不多说，马上开始我们的准备工作！</h2><ul>
-<li><p>GitHub</p>
-<ul>
-<li>首先得有个账号：<a href="https://github.com/" title="GitHub主页">注册GitHub</a>  </li>
-<li><a href="https://desktop.github.com/" title="GitHub客户端" target="_blank" rel="external"> 下载GitHub客户端</a>GitHub客户端（方便对项目的管理）， 安装完成后，会在桌面上出现两个图标，<code>git Shell</code>（所以就直接可以用）和<code>GitHub</code></li>
-</ul>
-</li>
-<li><p>NodeJS</p>
-<ul>
-<li>既然是使用nodejs开发的，就少不了nodejs，so..<a href="https://nodejs.org/en/" title="nodejs官网" target="_blank" rel="external">下载nodejs</a>，选择对应自己电脑的版本下载安装。为方便管理，我选择下载在D盘下创建文件夹名为<code>nodejs</code>或<code>node</code> 的文件夹中。</li>
-<li>打开cmd输入 <code>node -v</code>，出现版本号说明安装成功</li>
-</ul>
-<ul>
-<li><p>hexo安装</p>
-<ul>
-<li><p>首先创建文件夹名为blog ，我们要将hexo下载在此目录</p>
-</li>
-<li><p>打开git shell 或 git，输入：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">D:\&gt;cd blog</div><div class="line">D:\blog&gt;npm install hexo-cli -g</div></pre></td></tr></table></figure>
+<p>getElementsByTagName( )得到的结果是一组数组，注意需要指定坐标，哪怕他独此一份。<br>如：</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;div&gt; 这是一个div &lt;/div&gt;</div></pre></td></tr></table></figure>
 </li>
 </ul>
-</li>
+<p>获取到这个元素：</p>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;script&gt;</div><div class="line">window.onload=function()&#123;</div><div class="line"> var aDiv=document.getElementsByTagName(&apos;div&apos;)[0];</div><div class="line"> aDiv.onmouseover=function()&#123;</div><div class="line">        aDiv.style.background=&apos;red&apos;;</div><div class="line">    &#125;</div><div class="line"> &#125;</div><div class="line"></div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
+</code></pre><ul>
+<li>###js window.onload加载顺序问题 fn1 is not defined<br>之前并没有在意这个问题，直到一天傻乎乎地去点击元素调用window.onload里面的函数fn1时，欸？怎么调用不了？</li>
 </ul>
-</li>
-</ul>
-<pre><code>稍等一会儿就会显示 `added XXX packages in XX.XXXs` 成功
- - 检查是否安装成功
-在cmd或git shell中输入`hexo -v` 出现版本信息即为成功
-</code></pre><hr>
-<h2 id="三、创建项目"><a href="#三、创建项目" class="headerlink" title="三、创建项目"></a>三、创建项目</h2><ul>
-<li>hexo初始化<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">D:\blog&gt;hexo init</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>   初始化成功：<br>    <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">INFO  Copying data to D:\blog</div><div class="line">INFO  You are almost done! Don&apos;t forget to run &apos;npm install&apos; before you  start blogging with Hexo!</div></pre></td></tr></table></figure></p>
-<ul>
-<li><p>依赖包的安装</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">D:\blog&gt;npm install</div></pre></td></tr></table></figure>
-<p> 此时查看你的blog目录结构如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">blog</div><div class="line">├── _config.yml</div><div class="line">├── node_modules</div><div class="line">├── package.json</div><div class="line">├── scaffolds</div><div class="line">├── source</div><div class="line">|    └── _posts</div><div class="line">└── themes</div></pre></td></tr></table></figure>
-<p> 好玩的部分马上就到了，继续咯~ </p>
-<hr>
-</li>
-<li><p>创建文章 （很鸡冻の部分有木有！！）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">D:\blog&gt;hexo new &quot;hello world&quot;</div></pre></td></tr></table></figure>
-<p>   可简写为：</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">D:\blog&gt;hexo n &quot;hello world&quot;</div></pre></td></tr></table></figure>
-<p> 创建成功：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"> INFO Created: D:\blog\source\_posts\hello-world.md</div><div class="line"> ``` </div><div class="line"> --------</div><div class="line">- 页面生成&amp;运行</div><div class="line"></div><div class="line">      - 修改内容，打开`hello-world.md：`</div></pre></td></tr></table></figure>
-<p>   —title: hello world date:xxxx-xx-xx xx:xx:xx tags:—</p>
-   <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">在文章最后的- - -后面写下一些简单的句子，ctrl+s保存一下下</div><div class="line"></div><div class="line">      - 生成页面</div></pre></td></tr></table></figure>
-<p> D:\blog&gt;hexo generate</p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">可简写为：</div></pre></td></tr></table></figure>
-<pre><code>D:\blog&gt;hexo g 
-</code></pre>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">- 跑跑跑，让它跑起来</div></pre></td></tr></table></figure>
-<pre><code>D:\blog&gt;hexo  server
-</code></pre>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">当然此处也有简写：</div></pre></td></tr></table></figure>
-<pre><code>D:\blog&gt;hexo  s 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">结果：</div></pre></td></tr></table></figure>
-
-INFO Start processing 
-INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
-</code></pre><p>  ```</p>
-<p> <strong>* 以上端口号仅供参考，具体端口号请结合自己的实际情况</strong></p>
-<p> 在浏览器中打开以上网址就可以看到我们刚刚建好的<strong>hello-world</strong> 文章了， 放眼望去，博客名怎么叫hexo，什么嘛，作者信息也不是我，迫不及待要改改改有木有！ 继续！</p>
-</li>
-</ul>
-<hr>
-<h2 id="四、配置信息"><a href="#四、配置信息" class="headerlink" title="四、配置信息"></a>四、配置信息</h2><p>   用你的编辑器打开blog文件夹<strong>根目录</strong>下的配置文件 <code>_config.yml</code> ， 找到 <code>#site</code> 这个部分，在<code>title :</code> 的后面改成你喜欢的博客名。<code>author</code> 也是你啦，<code>email</code> 、<code>description</code> 都可以随意添上点内容。<br>   语言选项 <code>language：zh-Hans</code> (<strong>简体中文</strong>)</p>
-<p>   <strong>注意：XXXXX: 与其值之间必须有一个空格</strong></p>
-<p>   更多详细信息请参考：<a href="https://hexo.io/docs/configuration.html" title="hexo官方文档" target="_blank" rel="external">hexo官方文档</a></p>
-<p>参考文章：</p>
-<p>❤ <a href="http://www.jianshu.com/p/b06222fbc135" title="参考文章1" target="_blank" rel="external">用Hexo创建个人博客</a><br>❤ <a href="http://blog.csdn.net/gdutxiaoxu/article/details/53576018" title="参考文章2" target="_blank" rel="external">手把手教你用Hexo+Github 搭建属于自己的博客</a></p>
-<hr>
-<p>ps：这是<a href="https://github.com/MonicaDan" title="MonicaDan的GitHub">我的GitHub</a>， 请多关照， よろしく ~~ ❤❤</p>
-<p>我要去休息啦，所以今天要到此为止咯，更多细节就在以后的博客中更新~~</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE html&gt;</div><div class="line">&lt;html&gt;</div><div class="line">&lt;head&gt;</div><div class="line">	&lt;title&gt;window.onload产生的坑&lt;/title&gt;</div><div class="line">	&lt;meta charset=&quot;utf-8&quot;&gt;</div><div class="line">	&lt;style type=&quot;text/css&quot;&gt;</div><div class="line">		div&#123;</div><div class="line">			height: 45px;</div><div class="line">			width: 45px;</div><div class="line">			background:red;</div><div class="line">		&#125;</div><div class="line"></div><div class="line">	&lt;/style&gt;</div><div class="line">	&lt;script type=&quot;text/javascript&quot;&gt;</div><div class="line">	window.onload=function()&#123;</div><div class="line">           function fn1()&#123;</div><div class="line"> 	      alert(1);</div><div class="line">                &#125;</div><div class="line">	      &#125;</div><div class="line">	&lt;/script&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line">&lt;div onclick=&quot;fn1()&quot;&gt;&lt;/div&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>
+<p>   原来<code>window.onload</code>是在全部dom、图片等<strong>全部</strong>元素加载完全时才会再运行。先于<code>window.onload</code>加载的HTML是自上而下进行加载，遇到函数片段时，会为此函数开辟一块内存进行储存，当加载到<code>onclick=&#39;fn1( )&#39;</code>时，发现fn1还未声明（<code>window.onload</code>还未开始加载），于是报错。解决方案：将fn1写在<code>window.onload</code>的外边，在加载HTML时，加载到script标签对fn1进行声明加载，所以不影响使用。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE html&gt;</div><div class="line">&lt;html&gt;</div><div class="line">&lt;head&gt;</div><div class="line">	&lt;title&gt;window.onload产生的坑处理方法&lt;/title&gt;</div><div class="line">	&lt;meta charset=&quot;utf-8&quot;&gt;</div><div class="line">	&lt;style type=&quot;text/css&quot;&gt;</div><div class="line">		div&#123;</div><div class="line">			height: 45px;</div><div class="line">			width: 45px;</div><div class="line">			background:red;</div><div class="line">		&#125;</div><div class="line"></div><div class="line">	&lt;/style&gt;</div><div class="line">	&lt;script type=&quot;text/javascript&quot;&gt;</div><div class="line">	window.onload=function()&#123;</div><div class="line">	      &#125;</div><div class="line">	      //fn1写在window.onload的外部即可</div><div class="line">           function fn1()&#123;</div><div class="line"> 	      alert(1);</div><div class="line">                &#125;</div><div class="line">	&lt;/script&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line">&lt;div onclick=&quot;fn1()&quot;&gt;&lt;/div&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>
+<p> 说了<code>window.onload</code>，就不能不提jQuery中的<code>$(document).ready( )</code>; 他们两个又有什么区别呢？</p>
+<p> <code>$(document).ready( )</code>只是等加载好页面的dom结构，不会等标签内部具体的内容加载完才执行，即页面加载<code>&lt;img&gt;</code> 标签完成而图片内容还没显示出来就可以执行<code>$(document).ready( )</code>。</p>
+<p> <code>window.onload</code>就是等页面的全部dom、内容加载再执行，即加载<code>&lt;img&gt;</code>标签完成并且内容显示出来，才去执行<code>window.onload</code>里面的东西。</p>
+<p>先总结两个再说，无数的坑等着我去发现解决，期待~</p>
 
       
     </div>
@@ -455,7 +397,7 @@ INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
       
         <div class="post-tags">
           
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
+            <a href="/tags/js/" rel="tag"># js</a>
           
         </div>
       
@@ -468,8 +410,8 @@ INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2015/10/21/demo/" rel="next" title="辨析 Sass 中的 Map 和 List">
-                <i class="fa fa-chevron-left"></i> 辨析 Sass 中的 Map 和 List
+              <a href="/2017/10/30/nodejs中的URL处理方法/" rel="next" title="nodejs中的URL处理方法">
+                <i class="fa fa-chevron-left"></i> nodejs中的URL处理方法
               </a>
             
           </div>
@@ -477,10 +419,6 @@ INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/10/20/JSON小结/" rel="prev" title="JSON小结">
-                JSON小结 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -536,17 +474,8 @@ INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <img class="site-author-image" itemprop="image"
@@ -632,22 +561,6 @@ INFO Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、关于hexo"><span class="nav-number">1.</span> <span class="nav-text">一、关于hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、-话不多说，马上开始我们的准备工作！"><span class="nav-number">2.</span> <span class="nav-text">二、 话不多说，马上开始我们的准备工作！</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、创建项目"><span class="nav-number">3.</span> <span class="nav-text">三、创建项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、配置信息"><span class="nav-number">4.</span> <span class="nav-text">四、配置信息</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
